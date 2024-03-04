@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('codbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x; 
+}
+
+header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    color: aquamarine;
+    font-size: larger;
+    font-style: oblique;
+    padding: 20px;
+    text-align: left;
+    opacity: 0.9;
+}
+
+
+nav {
+    display: 100px;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: aqua;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.logo {
+    max-width: 90px; 
+    margin-right: 18px;
+}
+
+.resume1 {
+    max-width: 500px;
+    float: center;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+.resume1 {
+    transition: transform 0.3s ease;
+}
+
+.resume1:hover {
+    animation: zoomIn 0.5s ease;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+
+}
+
+
+
+footer {
+    background-color: #333;
+    color: aquamarine;
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer i {
+    margin-right: 5px;
+    color: white;
+}
+
+.footer-divider {
+    border-top: 1px solid #555;
+    margin: 10px 0;
+}

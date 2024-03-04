@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <img src="logoport.png" alt="logo" class="logo">
+    </header>
+
+    <nav>
+        <a href="home"><i class="fas fa-home"></i> Home</a>
+        <a href="my-works"><i class="fas fa-folder-open"></i> My Work</a>
+        <a href="skills"><i class="fas fa-cogs"></i> Skills</a>
+        <a href="contact"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>  
+    
+    <div id="contact" class="cf1">
+        <h1>Contact Me</h1>
+        <p>Scan the QR code below to reach me out!</p>
+        <img src="joshinfo.png" alt="joshinfo" class="joshinfo">
+
+        <form action="submit.php" method="POST">
+            <label for="name"><i class="fas fa-user"></i> Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone"><i class="fas fa-phone"></i> Phone:</label>
+            <input type="phone" id="phone" name="phone" required>
+    
+            <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message"><i class="fas fa-comment"></i> Message:</label>
+            <textarea id="message" name="message" required></textarea>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+    <div style="width: 100%; height: 400px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.447088921797!2d2.351097315368556!3d48.85666745932592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1635829576529!5m2!1sen!2sfr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    </div>
+
+    <footer class="footer">
+        <p>Contact me at: 
+            <i class="fas fa-envelope"></i> <a href="mailto:joshua.malabanan028@gmail.com">joshua.malabanan028@gmail.com</a> | 
+            <i class="fas fa-phone"></i> 09504554272
+        </p>
+        <div class="footer-divider"></div>
+        <p>Copyright &copy; 2024 Your Website. All Rights Reserved.</p>
+    </footer>
+ 
+
+</body>
+</html>

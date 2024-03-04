@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('codbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x; 
+}
+
+header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    color: aquamarine;
+    font-size: larger;
+    font-style: oblique;
+    padding: 20px;
+    text-align: left;
+    opacity: 0.9;
+}
+
+nav {
+    display: 100px;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: aqua;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.logo {
+    max-width: 90px; 
+    margin-right: 18px;
+}
+
+.joshinfo {
+    position: absolute;
+    top: 65%;
+    left: 30px;
+    transform: translateY(-50%); 
+    max-width: 200px;
+}
+
+.content, .cf1 {
+    border: 2px solid #ccc;
+    border-radius: 10px; 
+    padding: 20px; 
+    background-color: black;
+    flex: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    opacity: 0.8;
+}
+
+.cf1 form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    position: right;
+}
+
+.cf1 label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.cf1 input[type="text"],
+.cf1 input[type="phone"],
+.cf1 textarea {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cf1 input[type="text"],
+.cf1 input[type="email"],
+.cf1 textarea {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cf1 input[type="submit"] {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cf1 input[type="submit"]:hover {
+    background-color: aquamarine;
+}
+
+.cf1 input[type="text"]::before,
+.cf1 input[type="email"]::before,
+.cf1 textarea::before {
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 20%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #777;
+}
+
+
+#map {
+    height: 400px;
+    width: 100%;
+  }
+
+
+footer {
+    background-color: #333;
+    color: aquamarine;
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer i {
+    margin-right: 5px;
+    color: white;
+}
+
+.footer-divider {
+    border-top: 1px solid #555;
+    margin: 10px 0;
+}
